@@ -1,0 +1,19 @@
+{
+  "name": "gshortlink",
+  "version": "0.0.0",
+  "description": "This is a REST API for creating short links.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thegergo02",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "sqlite3": "^4.0.6",
+    "valid-url": "^1.0.9"
+  }
+}
